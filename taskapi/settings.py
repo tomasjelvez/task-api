@@ -180,3 +180,10 @@ LOGGING = {
 
 # Create logs directory if it doesn't exist
 os.makedirs(os.path.join(BASE_DIR, "logs"), exist_ok=True)
+
+# CSRF settings
+CSRF_TRUSTED_ORIGINS = ["https://task-api.fly.dev"]
+if DEBUG:
+    # Add your local development URLs if needed
+    CSRF_TRUSTED_ORIGINS.append("http://localhost:8000")
+    CSRF_TRUSTED_ORIGINS.append("http://127.0.0.1:8000")
