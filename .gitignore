@@ -41,4 +41,8 @@ env/
 
 # OS specific
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Add this to your .gitignore file
+logs/
+*.log 
