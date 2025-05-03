@@ -138,23 +138,7 @@ curl -X POST http://localhost:8000/tasks/1/complete/
 
 ### Manual Testing
 
-You can test the API endpoints on the production environment using tools like curl, Postman, or httpie:
-
-```bash
-# List all tasks
-curl https://task-api.fly.dev/tasks/
-
-# Create a new task
-curl -X POST https://task-api.fly.dev//tasks/ \
-  -H "Content-Type: application/json" \
-  -d '{"title": "Test Task", "priority": "high", "status": "pending"}'
-
-# Get a specific task
-curl https://task-api.fly.dev//tasks/1/
-
-# Mark a task as completed
-curl -X POST https://task-api.fly.dev/tasks/1/complete/
-```
+You can test the API endpoints on the production environment using tools like curl, Postman, or httpie. Follow this documentation: https://documenter.getpostman.com/view/16608319/2sB2j4hBuR
 
 ## API Endpoints
 
