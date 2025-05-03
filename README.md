@@ -164,7 +164,5 @@ With more time, I would:
 2. **Improve Logging**: Use a centralized logging service instead of file-based logging.
 3. **Add Pagination**: Implement pagination for the task list endpoint.
 4. **Add More Filters**: Allow filtering by priority, creation date, etc.
-5. **Add Swagger Documentation**: Implement automatic API documentation.
-6. **Implement Rate Limiting**: Protect the API from abuse.
-7. **Add More Tests**: Increase test coverage, especially for edge cases.
-8. **Implement Task Categories**: Allow organizing tasks into categories.
+5. **Implement Rate Limiting**: Protect the API from abuse.
+6. **Add More Tests**: Increase test coverage, especially for edge cases.
