@@ -171,4 +171,4 @@ With more time, I would:
 
 ### Post Mortem
 
-In this repo, there is a DEPLOYMENT_FAILURE.md file, wich aims to help for a generic case of a deployment failure on a live demo. Also, there is a POSTMORTEM.md file, wich outlines a specific case of that deployment failure, and how it was solved.
+In this repo, there is a `DEPLOYMENT_FAILURE.md` file, wich aims to help for a generic case of a deployment failure on a live demo. Also, there is a `POSTMORTEM.md` file, wich outlines a specific case of that deployment failure, and how it was solved.
