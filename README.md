@@ -166,3 +166,7 @@ With more time, I would:
 4. **Add More Filters**: Allow filtering by priority, creation date, etc.
 5. **Implement Rate Limiting**: Protect the API from abuse.
 6. **Add More Tests**: Increase test coverage, especially for edge cases.
+
+### Post Mortem
+
+In this repo, there is a DEPLOYMENT_FAILURE.md file, wich aims to help for a generic case of a deployment failure on a live demo. Also, there is a POSTMORTEM.md file, wich outlines a specific case of that deployment failure, and how it was solved.
