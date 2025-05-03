@@ -151,6 +151,14 @@ You can test the API endpoints on the production environment using tools like cu
 - `POST /tasks/{id}/complete/` - Mark a task as completed
 - `GET /metrics/` - Prometheus metrics endpoint
 
+## Task Properties
+
+When creating tasks, the following properties are available:
+
+- **title**: The name of the task (required)
+- **priority**: The importance level of the task (options: `high`, `medium`, `low`)
+- **status**: The current state of the task (default: `pending`)
+
 ## Trade-offs and Future Improvements
 
 ### Current Trade-offs
