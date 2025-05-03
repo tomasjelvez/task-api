@@ -157,6 +157,7 @@ You can test the API endpoints on the production environment using tools like cu
 1. **Simple Authentication**: The API currently has no authentication, which simplifies development but isn't suitable for production.
 2. **File-based Logging**: Logs are written to files, which works for development but isn't ideal for containerized environments.
 3. **Basic Error Handling**: The error handling is minimal to keep the code simple.
+4. **Stack**: The used tech stack aims to improve the deployment and development experience, while also provide the capability to achieve all the project requirements
 
 ### Future Improvements
 
@@ -168,6 +169,7 @@ With more time, I would:
 4. **Add More Filters**: Allow filtering by priority, creation date, etc.
 5. **Implement Rate Limiting**: Protect the API from abuse.
 6. **Add More Tests**: Increase test coverage, especially for edge cases.
+7. **Improve CI/CD**: Implement CI/CD flows into branch PRs, to better and earlier error catching.
 
 ### Post Mortem
 
