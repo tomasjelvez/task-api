@@ -122,6 +122,8 @@ You can test the API endpoints using tools like curl, Postman, or httpie:
 # List all tasks
 curl http://localhost:8000/tasks/
 
+# Get a task by id
+curl http://localhost:8000/tasks/1/
 # Create a new task
 curl -X POST http://localhost:8000/tasks/ \
   -H "Content-Type: application/json" \
