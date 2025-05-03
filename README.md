@@ -33,7 +33,7 @@ Additional components:
 1. Clone the repository
 
    ```
-   git clone https://github.com/yourusername/task-api.git
+   git clone https://github.com/tomasjelvez/task-api
    cd task-api
    ```
 
