@@ -25,6 +25,7 @@ Additional components:
 - **Logging**: Captures application events for debugging and auditing
 - **PostgreSQL Database**: Stores task data (in Docker and production)
 - **Docker**: Containerizes the application for consistent deployment
+- **Github Actions**: CI/CD flow that runs: tests, build docker image and deploy.You can check it on the repository actions tab.
 
 ## Setup & Deployment
 
