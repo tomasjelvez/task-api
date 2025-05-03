@@ -169,7 +169,7 @@ With more time, I would:
 4. **Add More Filters**: Allow filtering by priority, creation date, etc.
 5. **Implement Rate Limiting**: Protect the API from abuse.
 6. **Add More Tests**: Increase test coverage, especially for edge cases.
-7. **Improve CI/CD**: Implement CI/CD flows into branch PRs, to better and earlier error catching.
+7. **Improve CI/CD**: Implement CI/CD flows into branch PRs, to better and earlier error catching. Also, prevent the flow to run steps when no code changes. E.g. a `Readme.md` change triggers a full CI/CD flow execution.
 
 ### Post Mortem
 
