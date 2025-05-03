@@ -5,8 +5,8 @@ on:
     branches: [main]
 
 jobs:
-  deploy:
-    name: Build and Deploy
+  test-and-deploy:
+    name: Test, Build and Deploy
     runs-on: ubuntu-latest
 
     steps:
@@ -28,6 +28,19 @@ jobs:
         run: |
           source venv/bin/activate
           python manage.py test
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Build Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: false
+          load: true
+          tags: task-api:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
 
       - name: Set up Fly.io
         uses: superfly/flyctl-actions/setup-flyctl@master
